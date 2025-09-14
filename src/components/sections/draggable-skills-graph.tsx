@@ -39,7 +39,7 @@ const initialNodes: Node[] = [
     projectTitle: 'ML Pipeline Framework',
     projectSummary: '5+ years building scalable machine learning systems',
     description: 'Built comprehensive ML pipeline frameworks using Python that automate data preprocessing, feature engineering, and model training. Integrated with cloud services for distributed training and deployed production models serving millions of predictions.',
-    githubLink: 'https://github.com/piyush'
+    githubLink: 'https://github.com/atpewpew'
   },
   {
     id: 'pytorch',

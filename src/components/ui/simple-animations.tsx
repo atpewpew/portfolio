@@ -357,7 +357,7 @@ export const FloatingParticles: React.FC<ParticleAnimationProps> = ({
 }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const particlesRef = useRef<any[]>([]);
-  const animationFrameRef = useRef<number>();
+  const animationFrameRef = useRef<number | null>(null);
 
   const sizeMap = {
     sm: { width: 200, height: 150 },
